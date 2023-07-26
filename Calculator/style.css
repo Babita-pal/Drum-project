@@ -1,0 +1,64 @@
+body{
+    background-image: url("pngtree-vector-school-bag-calculator-cyan-cartoon-banner-image_166801.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cal{
+    color: #ffffff;
+    text-align: center;
+}
+.container{
+    width: 21rem;
+    height: 25rem;
+    margin-top: 7rem;
+    background-image: linear-gradient(pink,purple);
+    border-radius: 1rem;
+    
+    text-align: center;
+}
+#butt{
+    color: #ffffff;
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    gap: 1rem;
+    margin-left: 1rem;
+
+    font-size: large;
+}
+button{
+    width: 3rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: pink;
+    border: none;
+    font-size: large;
+
+
+}
+#numberbox{
+    width: 19rem;
+    height: 3rem;
+    background-color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    border: none;
+    font-size: large;
+}
+.operator:hover{
+    background-color:purple;
+}
+.number:hover{
+    background-color: purple;
+}
+.clear:hover{
+    background-color: purple;
+}
+.equal:hover{
+    background-color: purple;
+}
+.clear{
+    width: 4rem;
+}

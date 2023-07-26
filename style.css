@@ -1,0 +1,70 @@
+body{
+    background-image: url("images.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 5rem;
+    color: black;
+    font-family: cursive;
+    text-shadow: 4px 0 #da0463;
+}
+.container{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: overline;
+    text-shadow: 3px 0 #da0463;
+}
+.W{
+    background-image: url("image/tom1.png");
+}
+.A{
+    background-image: url("image/tom2.png");
+}
+.S{
+    background-image: url("image/tom3.png");
+}
+.D{
+    background-image: url("image/tom4.png");
+}
+.J{
+    background-image: url("image/snare.png");
+}
+.K{
+    background-image: url("image/crash.png");
+}
+.l{
+    background-image: url("image/kick.png");
+}
+.drum1{
+    height: 9rem;
+    width: 9rem;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Arvo",cursive;
+    outline: none;
+    border-radius: 1rem;
+    border: 0.5rem solid #404b69;
+    text-shadow: 0.6rem 0 #da0463;
+    color: #000000;
+}
+/* #container2{
+    text-align: center;
+    margin-top: 8rem;
+    
+} */
+
+
+.set {
+    margin: 10% auto;
+  }
+  
+.pressed {
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+}
